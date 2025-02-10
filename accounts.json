@@ -1,0 +1,54 @@
+{
+  "accounts": [
+    {
+      "Id": "1",
+      "UserId": "1",
+      "AccountType": "Current",
+      "Balance": "326",
+      "Created": "2022-10-31T09:00:00.594Z"
+    },
+    {
+      "Id": "2",
+      "UserId": "2",
+      "AccountType": "Current",
+      "Balance": "4870",
+      "Created": "2020-01-05T09:00:00.594Z"
+    },
+    {
+      "Id": "3",
+      "UserId": "2",
+      "AccountType": "Savings",
+      "Balance": "11537",
+      "Created": "2021-11-22T09:00:00.594Z"
+    },
+    {
+      "Id": "4",
+      "UserId": "3",
+      "AccountType": "Current",
+      "Balance": "8977",
+      "Created": "2016-04-08T09:00:00.594Z"
+    },
+    {
+      "Id": "5",
+      "UserId": "3",
+      "AccountType": "Savings",
+      "Balance": "26553",
+      "Created": "2018-08-29T09:00:00.594Z"
+    },
+    {
+      "Id": "6",
+      "UserId": "2",
+      "AccountType": "Loan",
+      "Balance": "-5460",
+      "Created": "2024-05-30T09:00:00.594Z"
+    }
+  ],
+  "loanDetails": [
+    {
+      "AccountId": "6",
+      "Duration": "5",
+      "Amount": "10000",
+      "InterestRate": "4.3"
+    }
+  ]
+}

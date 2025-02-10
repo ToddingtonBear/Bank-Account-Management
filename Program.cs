@@ -16,7 +16,19 @@ namespace Bank_Account_Management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            DialogResult result;
+            User loggedInUser = null;
+            using (var loginForm = new LoginForm())
+            {
+                result = loginForm.ShowDialog();
+                loggedInUser = loginForm.LoggedInUser;
+            }
+                
+            if (result == DialogResult.OK)
+            {
+                Application.Run(new MainForm(loggedInUser));
+            }
+
         }
     }
 }

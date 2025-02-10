@@ -1,0 +1,19 @@
+{
+  "users":[
+    {
+      "Name": "Bob",
+      "CreditRating": "15",
+      "ID": "1"
+    },
+    {
+      "Name": "Jim",
+      "CreditRating": "45",
+      "ID": "2"
+    },
+    {
+      "Name": "Anne",
+      "CreditRating": "80",
+      "ID": "3"
+    }
+  ]
+}
